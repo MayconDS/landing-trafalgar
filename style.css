@@ -5,6 +5,15 @@
     font-family: 'Mulish', sans-serif;
 
 }
+body {
+    background-color: #fff
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
 #line {
     
     width: 56px;
@@ -36,9 +45,6 @@ a#focused {
     
 }
 
-body {
-    background-color: #fff
-}
 
 header {
     padding: 3.5rem 10rem;
