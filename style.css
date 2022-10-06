@@ -492,6 +492,9 @@ footer {
     #section-2 .grid-3 {        
         grid-template-columns: 1fr 1fr;
     }
+    #section-6 .box-images {
+        grid-template-columns: 1fr 1fr;
+    }
     #section-3 {
         
         align-items: center;
@@ -536,8 +539,12 @@ footer {
     #section-2 .grid-3 {
         grid-template-columns: 1fr ;
     }
+    
     #section-2 .grid-3 .box {
-        width: 500px;
+        width: 400px;
+    }
+    #section-6 .box-images {
+        grid-template-columns: 1fr;
     }
 }
 @media (max-width: 700px) {
