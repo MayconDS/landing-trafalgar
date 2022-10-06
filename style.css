@@ -468,6 +468,7 @@ footer {
    }
 }
 @media (max-width: 1200px) {
+    
     #section-5 .container {
         margin-top: 30px;
     }
@@ -516,6 +517,18 @@ footer {
     
 }
 @media (max-width: 955px) {
+    #section-1 #img {
+        width: 450px;
+        height: 450px;
+    }
+    #section-3 #img {
+        width: 450px;
+        height: 450px;
+    }
+    #section-4 #img {
+        width: 450px;
+        height: 450px;
+    }
     nav #logo {
         font-size: 12px;
     }
@@ -536,7 +549,18 @@ footer {
     }
 }
 @media (max-width: 800px) {
-   
+    #section-1 #img {
+        width: 280px;
+        height: 280px;
+    }
+    #section-3 #img {
+        width: 280px;
+        height: 280px;
+    }
+    #section-4 #img {
+        width: 280px;
+        height: 280px;
+    }
     #section-5 .founder-profile {
         flex-direction: column;
     }
@@ -553,9 +577,19 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 @media (max-width: 700px) {
     
     #section-5 #outline h1 {
         font-size: 1rem
+    }
+}
+@media (max-width: 600px) {
+    #section-5 {
+        margin-left: -70px;
+    }
+    #section-5 .box {
+        
+        width: 300px;
     }
 }
