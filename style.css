@@ -517,6 +517,12 @@ footer {
     
 }
 @media (max-width: 955px) {
+    section {
+        padding: 2rem 3rem;
+    }
+    #section-1 .left h1 {
+        font-size: 2rem;
+    }
     #section-1 #img {
         width: 450px;
         height: 450px;
@@ -585,9 +591,7 @@ footer {
     }
 }
 @media (max-width: 600px) {
-    #section-5 {
-        margin-left: -70px;
-    }
+   
     #section-5 .box {
         
         width: 300px;
