@@ -383,6 +383,18 @@ section {
     gap: 20px;
 }
 #section-6 .box-images .container a {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+#section-6 .box-images .container a img{
+    margin-top: 16.5px;
+    width: 14px;
+    height: 9px;
+}
+#section-6 .box-images .container a {
+    
     margin-top: 30px;
     color: #4089ED
 }
