@@ -568,16 +568,16 @@ footer {
 }
 @media (max-width: 800px) {
     #section-1 #img {
-        width: 280px;
-        height: 280px;
+        width: 420px;
+        height: 340px;
     }
     #section-3 #img {
-        width: 280px;
-        height: 280px;
+        width: 420px;
+        height: 340px
     }
     #section-4 #img {
-        width: 280px;
-        height: 280px;
+        width: 420px;
+        height: 340px
     }
     #section-5 .founder-profile {
         flex-direction: column;
@@ -585,7 +585,8 @@ footer {
 }
 @media (max-width: 750px) {
     nav {
-        gap: 10px;
+        width: 100%;
+        gap: 20px;
         flex-direction: column;
     }
     #section-2 .grid-3 {
@@ -605,6 +606,7 @@ footer {
         font-size: 0.9rem;
     }
    footer {
+    
     grid-template-columns: 1fr 1fr  ;
     gap: 20px;
    }
@@ -613,7 +615,9 @@ footer {
     }
 }
 @media (max-width: 600px) {
-   
+   #footer-company {
+    margin-top: 12px;
+   }
     #section-5 .box {
         
         width: 300px;
