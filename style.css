@@ -159,8 +159,7 @@ section {
     z-index: -1;
     position: absolute;
     top: -50px;
-    right: 600px;
-    
+    right: 600px; 
     
 }
 
@@ -627,6 +626,10 @@ footer {
     }
 }
 @media (max-width: 600px) {
+    #section-2 .grid-3 #background{
+        
+        right: 0px;    
+    }
    #footer-company {
     margin-top: 12px;
    }
