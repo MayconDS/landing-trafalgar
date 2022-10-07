@@ -415,14 +415,17 @@ section {
 /* FOOOTER */
 
 footer {
-    gap: 120px;
-    display: flex;
+   
+  
+    gap: 7.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 6.8rem 11.8rem;
-    height: 432px;
+    height: 100%;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 #logo {
-    gap: 10px;
+    gap: 0.9rem;
     display: flex;
     align-items: center;
 }
@@ -450,7 +453,7 @@ footer {
     color: rgb(255, 255, 255, 0.7);
 }
 .footerItems {
-    gap: 15px;
+    gap: 1rem;
     color: rgb(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
@@ -458,7 +461,13 @@ footer {
 
 /* Media Queries */
 @media (max-width: 1300px) {
+    footer {
+        height: 100%;
+        
+        padding: 6.8rem 4rem;
+    }
     #section-5 .box {
+        gap: 50px;
         padding: 3rem 3rem;;
     }
    
@@ -474,6 +483,11 @@ footer {
     }
 }
 @media (max-width: 1100px) {
+    .footerItems h1 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+    }
     #section-5 {
         width: 110%;
     }
@@ -517,6 +531,9 @@ footer {
     
 }
 @media (max-width: 955px) {
+    header {
+        padding: 3.5rem 2rem;
+    }
     section {
         padding: 2rem 3rem;
     }
@@ -535,12 +552,7 @@ footer {
         width: 450px;
         height: 450px;
     }
-    nav #logo {
-        font-size: 12px;
-    }
-    nav li a {
-        font-size: 14px;
-    }
+    
 }
 @media (max-width: 900px) {
     
@@ -572,6 +584,10 @@ footer {
     }
 }
 @media (max-width: 750px) {
+    nav {
+        gap: 10px;
+        flex-direction: column;
+    }
     #section-2 .grid-3 {
         grid-template-columns: 1fr ;
     }
@@ -585,7 +601,13 @@ footer {
 }
 
 @media (max-width: 700px) {
-    
+    .footerItems h1,a {
+        font-size: 0.9rem;
+    }
+   footer {
+    grid-template-columns: 1fr 1fr  ;
+    gap: 20px;
+   }
     #section-5 #outline h1 {
         font-size: 1rem
     }
